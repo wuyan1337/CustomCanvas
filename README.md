@@ -6,10 +6,28 @@ Setup
 2. 安装js脚本
 3. Enjoy！
 
-
-
 实在不会就看视频
 www.bilibili.com/video/BV1JHNEzUEXX/
 
 
-PS：base64的混只是为了防某些弱智人
+
+
+如何清除本地数据？
+控制台执行如下即可
+```js
+localStorage.removeItem('canvas_feat_enhance');
+localStorage.removeItem('canvas_feat_profile');
+localStorage.removeItem('canvas_feat_title');
+localStorage.removeItem('canvas_custom_bg');
+```
+
+检测删除是否成功 控制台输入
+```js
+localStorage.getItem('canvas_feat_enhance');
+```
+
+如返回：
+```js
+null
+```
+则删除成功
