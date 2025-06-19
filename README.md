@@ -21,7 +21,7 @@ localStorage.removeItem('canvas_feat_title');
 localStorage.removeItem('canvas_custom_bg');
 ```
 
-检测删除是否成功 控制台输入
+检测是否清除成功 控制台输入
 ```js
 localStorage.getItem('canvas_feat_enhance');
 ```
@@ -30,4 +30,4 @@ localStorage.getItem('canvas_feat_enhance');
 ```js
 null
 ```
-则删除成功
+则清除成功
