@@ -1,5 +1,6 @@
 # CustomCanvas
 基于油猴的Canvas客制化
+禁止传播此插件
 
 Setup
 1. 安装油猴
